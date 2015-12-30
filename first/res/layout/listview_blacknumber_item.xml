@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+    <TextView 
+        style="@style/WrapStyle"
+        android:textColor="#f00"
+        android:id="@+id/tv_blacknumber_phone"
+        android:text="@string/default_text"
+        />
+    <TextView 
+       
+        android:layout_below="@id/tv_blacknumber_phone"
+         style="@style/WrapStyle"
+        android:textColor="#000"
+        android:id="@+id/tv_blacknumber_mode"
+        android:text="@string/default_text"
+        />
+    <ImageView 
+        android:id="@+id/iv_blacknumber_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/selector_blacknumber_del_bg"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

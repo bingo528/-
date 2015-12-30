@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/anit_virus" />
+
+    <LinearLayout
+        style="@style/MatchWrapStyle"
+        android:orientation="horizontal" >
+
+        <FrameLayout style="@style/WrapStyle" >
+
+            <ImageView
+                style="@style/WrapStyle"
+                android:background="@drawable/ic_scanner_malware" />
+
+            <ImageView
+                android:id="@+id/iv_anit_scanning"
+                style="@style/WrapStyle"
+                android:background="@drawable/act_scanning_03" />
+        </FrameLayout>
+
+        <LinearLayout
+            style="@style/MatchStyle"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_anit_name"
+                style="@style/WrapStyle"
+                android:text="@string/default_text" />
+
+            <ProgressBar
+                android:id="@+id/pb_anit_bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/progress_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView style="@style/MatchWrapStyle" >
+
+        <LinearLayout
+            android:id="@+id/ll_anit_add"
+            style="@style/WrapStyle"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

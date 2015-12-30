@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:background="#E800FF"
+        android:text="@string/blacknumber_page" />
+
+    <EditText
+        android:id="@+id/et_dialog_blacknum"
+        style="@style/MatchWrapStyle"
+        android:hint="@string/input_phone"
+        
+        android:inputType="phone" />
+
+    <Button
+        
+        android:id="@+id/bt_setup3_select"
+        style="@style/MatchWrapStyle"
+        android:text="@string/select_contact" />
+
+    <RadioGroup
+        android:id="@+id/rg_black_group"
+        style="@style/MatchWrapStyle"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_sms"
+            style="@style/WrapStyle"
+            android:text="@string/sms" />
+
+        <RadioButton
+            android:id="@+id/rb_phone"
+            style="@style/WrapStyle"
+            android:text="@string/phone" />
+
+        <RadioButton
+            android:id="@+id/rb_all"
+            style="@style/WrapStyle"
+            android:text="@string/all" />
+    </RadioGroup>
+
+    <LinearLayout style="@style/MatchWrapStyle" >
+
+        <Button
+            
+            android:id="@+id/bt_black_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/bt_black_cancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

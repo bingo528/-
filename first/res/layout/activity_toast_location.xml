@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#accc"
+    >
+    <ImageView 
+        style="@style/WrapStyle"
+        android:background="@drawable/drag"
+        android:id="@+id/iv_drag"
+        />
+<Button 
+    android:id="@+id/bt_toast_location_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/drag"
+    android:background="@drawable/call_locate_green"
+    android:gravity="center"
+    android:visibility="invisible"
+    />
+<Button 
+    android:id="@+id/bt_toast_location_bottom"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/drag"
+    android:background="@drawable/call_locate_green"
+    android:gravity="center"
+    android:visibility="visible"
+    />
+</RelativeLayout>

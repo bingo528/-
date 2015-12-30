@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="com.zhang.zhangsafe.view.SettingItemView">
+		<attr name="destitle" format="string" localization="suggested"/>
+		<attr name="desoff" format="string"/>
+		<attr name="deson" format="string"/>
+	</declare-styleable>
+</resources>

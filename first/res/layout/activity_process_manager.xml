@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/TitleStyle"
+        android:text="@string/process_manager"
+        />
+      <RelativeLayout 
+          style="@style/MatchWrapStyle"
+          >
+       <TextView 
+           android:id="@+id/tv_process_count"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/default_text"
+           />   
+          <TextView 
+              android:id="@+id/tv_process_size"
+                android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+              android:text="@string/default_text"
+              android:layout_alignParentRight="true"
+              />
+      </RelativeLayout>
+      <FrameLayout 
+	     android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="0dp">
+      <ListView 
+          
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/lv_process"
+          ></ListView>
+       <TextView 
+        android:background="#ccc"
+        android:id="@+id/tv_process_des"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+      </FrameLayout>
+      <LinearLayout 
+          
+          style="@style/MatchWrapStyle"
+          android:orientation="horizontal"
+          >
+          <Button 
+              android:id="@+id/bt_process_select_all"
+                
+           android:layout_height="wrap_content"
+              android:text="@string/select_all"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+                android:textSize="14sp"
+              />
+          <Button 
+              android:id="@+id/bt_process_select_reverse"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+           android:layout_height="wrap_content"
+              android:text="@string/reverse"
+               android:textSize="14sp"
+              />
+          <Button 
+              android:id="@+id/bt_process_clear"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+           android:layout_height="wrap_content"
+              android:text="@string/one_clear"
+               android:textSize="14sp"
+              />
+          <Button 
+              android:id="@+id/bt_process_setting"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+           android:layout_height="wrap_content"
+              android:text="@string/setting"
+               android:textSize="14sp"
+              />
+          
+      </LinearLayout>
+</LinearLayout>

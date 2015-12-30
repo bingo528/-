@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/success" />
+
+    <CheckBox
+        style="@style/MatchWrapStyle"
+        android:id="@+id/cb_setup4_box"
+        android:text="@string/notsave_protected"
+        />
+
+    <LinearLayout
+        style="@style/MatchWrapStyle"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_online" />
+    </LinearLayout>
+
+    <RelativeLayout style="@style/MatchStyle" >
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:layout_centerInParent="true"
+            android:background="@drawable/phone" />
+
+        <Button style="@style/PreBtnStyle" />
+
+        <Button style="@style/NextBtnStyle" />
+    </RelativeLayout>
+
+</LinearLayout>

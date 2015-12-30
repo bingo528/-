@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+     >
+
+    <ImageView
+        android:id="@+id/iv_gri_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher" />
+
+   <TextView 
+       android:id="@+id/tv_grid_title"
+       android:text="@string/default_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:textSize="18sp"
+    
+       />
+
+</LinearLayout>

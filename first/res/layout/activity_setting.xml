@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhangsafe="http://schemas.android.com/apk/res/com.zhang.zhangsafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zhang.zhangsafe.view.SettingItemView
+        android:id="@+id/siv_set_update"
+        style="@style/MatchWrapStyle"
+        zhangsafe:desoff="自动更新已关闭"
+        zhangsafe:deson="自动更新已开启"
+        zhangsafe:destitle="自动更新设置" />
+
+    <!--
+             zhangsafe:destitle="@string/set_update"
+        zhangsafe:desoff="@string/set_update_off"
+        zhangsafe:deson="@string/set_update_on"
+    -->
+ 
+    <com.zhang.zhangsafe.view.SettingItemView
+        android:id="@+id/siv_set_address"
+        style="@style/MatchWrapStyle"
+        zhangsafe:desoff="电话归属地显示已关闭"
+        zhangsafe:deson="电话归属地显示已开启"
+        zhangsafe:destitle="电话归属地显示设置" />
+    
+       <com.zhang.zhangsafe.view.SettingClickView
+         android:id="@+id/scv_toast_style"
+        style="@style/MatchWrapStyle"
+        />
+       
+       <com.zhang.zhangsafe.view.SettingClickView
+         android:id="@+id/scv_location"
+        style="@style/MatchWrapStyle"
+        />
+ <com.zhang.zhangsafe.view.SettingItemView
+        android:id="@+id/siv_set_blacknumber"
+        style="@style/MatchWrapStyle"
+        zhangsafe:desoff="黑名单拦截已关闭"
+        zhangsafe:deson="黑名单拦截已开启"
+        zhangsafe:destitle="黑名单拦截设置" />
+ <com.zhang.zhangsafe.view.SettingItemView
+        android:id="@+id/siv_set_applock"
+        style="@style/MatchWrapStyle"
+        zhangsafe:desoff="程序锁已关闭"
+        zhangsafe:deson="程序锁已开启"
+        zhangsafe:destitle="程序锁设置" />
+</LinearLayout>

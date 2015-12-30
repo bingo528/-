@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/MatchWrapStyle" >
+
+        <TextView
+            style="@style/TitleStyle"
+            android:gravity="left"
+            android:text="@string/cache_clear" />
+
+        <Button
+            android:id="@+id/bt_cache_clear"
+            style="@style/WrapStyle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/imme_clear" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_cache_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/progress_bg" />
+    <TextView
+	    android:text="@string/default_text"
+	    android:id="@+id/tv_name"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ScrollView style="@style/MatchWrapStyle" >
+
+        <LinearLayout
+            android:id="@+id/ll_cache_add"
+            style="@style/WrapStyle"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

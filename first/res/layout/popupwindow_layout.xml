@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/local_popup_bg"
+    android:orientation="horizontal" >
+    <TextView 
+        style="@style/WrapStyle"
+        android:id="@+id/tv_uninstall"
+        android:text="@string/uninstall"
+        android:drawableTop="@drawable/img1"
+        />
+    <TextView 
+        style="@style/WrapStyle"
+        android:id="@+id/tv_start"
+        android:text="@string/start"
+        android:drawableTop="@drawable/img2"
+        />
+    <TextView 
+        style="@style/WrapStyle"
+        android:id="@+id/tv_share"
+        android:text="@string/share"
+        android:drawableTop="@drawable/img3"
+        />
+
+</LinearLayout>

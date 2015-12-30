@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/TitleStyle"
+        android:background="#E800FF"
+        android:text="@string/set_psd"
+        />
+     <EditText 
+         android:id="@+id/et_dialog_submit_psd"
+         style="@style/MatchWrapStyle"
+         android:hint="@string/input_set_psd"
+         android:inputType="textPassword"
+         />
+      <EditText 
+          android:id="@+id/et_dialog_confirm_psd"
+         style="@style/MatchWrapStyle"
+         android:hint="@string/input_confirm_psd"
+         android:inputType="textPassword"
+         />
+      <LinearLayout 
+          style="@style/MatchWrapStyle"
+          
+          >
+          <Button 
+              android:id="@+id/bt_submit_psd"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:text="@string/confirm"
+              />
+          <Button 
+              android:id="@+id/bt_cancel_psd"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:text="@string/cancel"
+              />
+      </LinearLayout>
+</LinearLayout>

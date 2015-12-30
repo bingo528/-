@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/MatchWrapStyle"
+        android:textColor="#f00"
+        android:id="@+id/tv_contactlist_name"
+        android:text="@string/default_text"
+        />
+    <TextView 
+        style="@style/MatchWrapStyle"
+        android:textColor="#000"
+        android:id="@+id/tv_contactlist_phone"
+        android:text="@string/default_text"
+        />
+    
+
+</LinearLayout>

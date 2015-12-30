@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        style="@style/TitleStyle"
+        android:text="@string/process_setting"
+        />
+    <CheckBox 
+        style="@style/MatchWrapStyle"
+        android:id="@+id/cb_process_setting"
+        android:text="@string/default_text"
+        />
+    <CheckBox 
+        style="@style/MatchWrapStyle"
+        android:id="@+id/cb_process_lock_clear"
+        android:text="@string/default_text"
+        />
+
+</LinearLayout>

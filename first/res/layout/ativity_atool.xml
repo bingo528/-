@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/TitleStyle"
+        android:text="@string/atool"
+        />
+     <TextView 
+         android:id="@+id/tv_atool_loca_search"
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:text="@string/location_search"
+        android:gravity="center"
+         android:background="@drawable/selector_atool_item"
+        />
+    <TextView 
+        android:id="@+id/tv_atool_smsbak"
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:text="@string/sms_bak"
+        android:gravity="center"
+         android:background="@drawable/selector_atool_item"
+        />
+    <TextView 
+        android:id="@+id/tv_atool_common_phonesear"
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:text="@string/common_phone_search"
+        android:gravity="center"
+         android:background="@drawable/selector_atool_item"
+        />
+    <TextView 
+        android:id="@+id/tv_atool_progm_lock"
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:text="@string/progm_lock"
+        android:gravity="center"
+        android:background="@drawable/selector_atool_item"
+        />
+    <TextView 
+        style="@style/MatchWrapStyle"
+        android:id="@+id/tv_atool_smsrecover"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:text="@string/sms_recover"
+        android:gravity="center"
+         android:background="@drawable/selector_atool_item"
+        />
+
+</LinearLayout>

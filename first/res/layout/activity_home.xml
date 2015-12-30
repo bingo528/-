@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/functionlist" />
+
+    <com.zhang.zhangsafe.view.FocusTextView
+       style="@style/MatchWrapStyle"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/bartext"
+        android:textColor="#f00" />
+
+    <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+         >
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,477 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+com.zhang.zhangsafe.R$anim: int alpha
+com.zhang.zhangsafe.R$anim: int cycle_7
+com.zhang.zhangsafe.R$anim: int next_in_translate
+com.zhang.zhangsafe.R$anim: int next_out_translate
+com.zhang.zhangsafe.R$anim: int pre_in_translate
+com.zhang.zhangsafe.R$anim: int pre_out_translate
+com.zhang.zhangsafe.R$anim: int rotate
+com.zhang.zhangsafe.R$anim: int shake
+com.zhang.zhangsafe.R$anim: int translate
+com.zhang.zhangsafe.R$attr: int desoff
+com.zhang.zhangsafe.R$attr: int deson
+com.zhang.zhangsafe.R$attr: int destitle
+com.zhang.zhangsafe.R$color: int pink
+com.zhang.zhangsafe.R$dimen: int activity_horizontal_margin
+com.zhang.zhangsafe.R$dimen: int activity_vertical_margin
+com.zhang.zhangsafe.R$drawable: int act_scanning_03
+com.zhang.zhangsafe.R$drawable: int bind
+com.zhang.zhangsafe.R$drawable: int btn_green_normal
+com.zhang.zhangsafe.R$drawable: int btn_green_pressed
+com.zhang.zhangsafe.R$drawable: int call_locate_blue
+com.zhang.zhangsafe.R$drawable: int call_locate_gray
+com.zhang.zhangsafe.R$drawable: int call_locate_green
+com.zhang.zhangsafe.R$drawable: int call_locate_orange
+com.zhang.zhangsafe.R$drawable: int call_locate_white
+com.zhang.zhangsafe.R$drawable: int drag
+com.zhang.zhangsafe.R$drawable: int function_greenbutton_normal
+com.zhang.zhangsafe.R$drawable: int function_greenbutton_pressed
+com.zhang.zhangsafe.R$drawable: int home_apps
+com.zhang.zhangsafe.R$drawable: int home_callmsgsafe
+com.zhang.zhangsafe.R$drawable: int home_netmanager
+com.zhang.zhangsafe.R$drawable: int home_safe
+com.zhang.zhangsafe.R$drawable: int home_settings
+com.zhang.zhangsafe.R$drawable: int home_sysoptimize
+com.zhang.zhangsafe.R$drawable: int home_taskmanager
+com.zhang.zhangsafe.R$drawable: int home_tools
+com.zhang.zhangsafe.R$drawable: int home_trojan
+com.zhang.zhangsafe.R$drawable: int ic_launcher
+com.zhang.zhangsafe.R$drawable: int ic_scanner_malware
+com.zhang.zhangsafe.R$drawable: int img1
+com.zhang.zhangsafe.R$drawable: int img2
+com.zhang.zhangsafe.R$drawable: int img3
+com.zhang.zhangsafe.R$drawable: int jiantou1_pressed
+com.zhang.zhangsafe.R$drawable: int launcher_bg
+com.zhang.zhangsafe.R$drawable: int listview_divider
+com.zhang.zhangsafe.R$drawable: int local_popup_bg
+com.zhang.zhangsafe.R$drawable: int lock
+com.zhang.zhangsafe.R$drawable: int main_clean_icon
+com.zhang.zhangsafe.R$drawable: int main_clean_icon_pressed
+com.zhang.zhangsafe.R$drawable: int next
+com.zhang.zhangsafe.R$drawable: int phone
+com.zhang.zhangsafe.R$drawable: int previous
+com.zhang.zhangsafe.R$drawable: int progress_bg
+com.zhang.zhangsafe.R$drawable: int security_progress
+com.zhang.zhangsafe.R$drawable: int security_progress_bg
+com.zhang.zhangsafe.R$drawable: int selector_atool_item
+com.zhang.zhangsafe.R$drawable: int selector_blacknumber_del_bg
+com.zhang.zhangsafe.R$drawable: int selector_nextbtn_bg
+com.zhang.zhangsafe.R$drawable: int selector_setup3_btn_bg
+com.zhang.zhangsafe.R$drawable: int selector_setupover_reset
+com.zhang.zhangsafe.R$drawable: int setup1
+com.zhang.zhangsafe.R$drawable: int shape_iv_lock
+com.zhang.zhangsafe.R$drawable: int tab_left_default
+com.zhang.zhangsafe.R$drawable: int tab_left_pressed
+com.zhang.zhangsafe.R$drawable: int tab_right_default
+com.zhang.zhangsafe.R$drawable: int tab_right_pressed
+com.zhang.zhangsafe.R$drawable: int unlock
+com.zhang.zhangsafe.R$drawable: int widget_bg_portrait
+com.zhang.zhangsafe.R$drawable: int widget_bg_portrait_child
+com.zhang.zhangsafe.R$drawable: int widget_bg_portrait_child_divider
+com.zhang.zhangsafe.R$id: int action_settings
+com.zhang.zhangsafe.R$id: int bt_applock_lock
+com.zhang.zhangsafe.R$id: int bt_applock_unlock
+com.zhang.zhangsafe.R$id: int bt_black_cancle
+com.zhang.zhangsafe.R$id: int bt_black_submit
+com.zhang.zhangsafe.R$id: int bt_blacknum_refesh
+com.zhang.zhangsafe.R$id: int bt_blacknumber_add
+com.zhang.zhangsafe.R$id: int bt_cache_clear
+com.zhang.zhangsafe.R$id: int bt_cancel_psd
+com.zhang.zhangsafe.R$id: int bt_confirm_cancel
+com.zhang.zhangsafe.R$id: int bt_confirm_submit
+com.zhang.zhangsafe.R$id: int bt_process_clear
+com.zhang.zhangsafe.R$id: int bt_process_select_all
+com.zhang.zhangsafe.R$id: int bt_process_select_reverse
+com.zhang.zhangsafe.R$id: int bt_process_setting
+com.zhang.zhangsafe.R$id: int bt_query_search
+com.zhang.zhangsafe.R$id: int bt_setup3_select
+com.zhang.zhangsafe.R$id: int bt_submit_psd
+com.zhang.zhangsafe.R$id: int bt_toast_location_bottom
+com.zhang.zhangsafe.R$id: int bt_toast_location_top
+com.zhang.zhangsafe.R$id: int btn_clear
+com.zhang.zhangsafe.R$id: int cb_process_box
+com.zhang.zhangsafe.R$id: int cb_process_lock_clear
+com.zhang.zhangsafe.R$id: int cb_process_setting
+com.zhang.zhangsafe.R$id: int cb_set_box
+com.zhang.zhangsafe.R$id: int cb_setup4_box
+com.zhang.zhangsafe.R$id: int elv_common_number
+com.zhang.zhangsafe.R$id: int et_confirm_psd
+com.zhang.zhangsafe.R$id: int et_dialog_blacknum
+com.zhang.zhangsafe.R$id: int et_dialog_confirm_psd
+com.zhang.zhangsafe.R$id: int et_dialog_submit_psd
+com.zhang.zhangsafe.R$id: int et_query_address
+com.zhang.zhangsafe.R$id: int et_setup3_phone
+com.zhang.zhangsafe.R$id: int gv_home
+com.zhang.zhangsafe.R$id: int iv_anit_scanning
+com.zhang.zhangsafe.R$id: int iv_blacknumber_del
+com.zhang.zhangsafe.R$id: int iv_delete
+com.zhang.zhangsafe.R$id: int iv_drag
+com.zhang.zhangsafe.R$id: int iv_enter_psd_icon
+com.zhang.zhangsafe.R$id: int iv_gri_icon
+com.zhang.zhangsafe.R$id: int iv_icon
+com.zhang.zhangsafe.R$id: int iv_image
+com.zhang.zhangsafe.R$id: int iv_islock_icon
+com.zhang.zhangsafe.R$id: int iv_islock_lockbg
+com.zhang.zhangsafe.R$id: int iv_setupover_lock
+com.zhang.zhangsafe.R$id: int ll_anit_add
+com.zhang.zhangsafe.R$id: int ll_applock_lock
+com.zhang.zhangsafe.R$id: int ll_applock_unlock
+com.zhang.zhangsafe.R$id: int ll_cache_add
+com.zhang.zhangsafe.R$id: int ll_root
+com.zhang.zhangsafe.R$id: int lv_app_list
+com.zhang.zhangsafe.R$id: int lv_applock_lock
+com.zhang.zhangsafe.R$id: int lv_applock_unlock
+com.zhang.zhangsafe.R$id: int lv_blacknumber
+com.zhang.zhangsafe.R$id: int lv_contact
+com.zhang.zhangsafe.R$id: int lv_process
+com.zhang.zhangsafe.R$id: int pb_anit_bar
+com.zhang.zhangsafe.R$id: int pb_bar
+com.zhang.zhangsafe.R$id: int pb_cache_bar
+com.zhang.zhangsafe.R$id: int rb_all
+com.zhang.zhangsafe.R$id: int rb_phone
+com.zhang.zhangsafe.R$id: int rb_sms
+com.zhang.zhangsafe.R$id: int rg_black_group
+com.zhang.zhangsafe.R$id: int rl_splash_root
+com.zhang.zhangsafe.R$id: int scv_location
+com.zhang.zhangsafe.R$id: int scv_toast_style
+com.zhang.zhangsafe.R$id: int siv_set_address
+com.zhang.zhangsafe.R$id: int siv_set_applock
+com.zhang.zhangsafe.R$id: int siv_set_blacknumber
+com.zhang.zhangsafe.R$id: int siv_set_bound
+com.zhang.zhangsafe.R$id: int siv_set_update
+com.zhang.zhangsafe.R$id: int tv_anit_name
+com.zhang.zhangsafe.R$id: int tv_app_des
+com.zhang.zhangsafe.R$id: int tv_app_manager_memory
+com.zhang.zhangsafe.R$id: int tv_app_manager_sd
+com.zhang.zhangsafe.R$id: int tv_app_title
+com.zhang.zhangsafe.R$id: int tv_applock_lock
+com.zhang.zhangsafe.R$id: int tv_applock_unlock
+com.zhang.zhangsafe.R$id: int tv_atool_common_phonesear
+com.zhang.zhangsafe.R$id: int tv_atool_loca_search
+com.zhang.zhangsafe.R$id: int tv_atool_progm_lock
+com.zhang.zhangsafe.R$id: int tv_atool_smsbak
+com.zhang.zhangsafe.R$id: int tv_atool_smsrecover
+com.zhang.zhangsafe.R$id: int tv_blacknumber_mode
+com.zhang.zhangsafe.R$id: int tv_blacknumber_phone
+com.zhang.zhangsafe.R$id: int tv_comm_number_name
+com.zhang.zhangsafe.R$id: int tv_comm_number_phone
+com.zhang.zhangsafe.R$id: int tv_contactlist_name
+com.zhang.zhangsafe.R$id: int tv_contactlist_phone
+com.zhang.zhangsafe.R$id: int tv_enter_psd_name
+com.zhang.zhangsafe.R$id: int tv_grid_title
+com.zhang.zhangsafe.R$id: int tv_islock_name
+com.zhang.zhangsafe.R$id: int tv_memory_info
+com.zhang.zhangsafe.R$id: int tv_name
+com.zhang.zhangsafe.R$id: int tv_process_count
+com.zhang.zhangsafe.R$id: int tv_process_des
+com.zhang.zhangsafe.R$id: int tv_process_memory
+com.zhang.zhangsafe.R$id: int tv_process_name
+com.zhang.zhangsafe.R$id: int tv_process_size
+com.zhang.zhangsafe.R$id: int tv_query_show
+com.zhang.zhangsafe.R$id: int tv_set_des
+com.zhang.zhangsafe.R$id: int tv_set_title
+com.zhang.zhangsafe.R$id: int tv_setclick_des
+com.zhang.zhangsafe.R$id: int tv_setclick_title
+com.zhang.zhangsafe.R$id: int tv_setup_over_safenumber
+com.zhang.zhangsafe.R$id: int tv_setupover_reset
+com.zhang.zhangsafe.R$id: int tv_share
+com.zhang.zhangsafe.R$id: int tv_start
+com.zhang.zhangsafe.R$id: int tv_toast
+com.zhang.zhangsafe.R$id: int tv_uninstall
+com.zhang.zhangsafe.R$id: int tv_version_name
+com.zhang.zhangsafe.R$layout: int activity_anit_virus
+com.zhang.zhangsafe.R$layout: int activity_app_lock
+com.zhang.zhangsafe.R$layout: int activity_app_manager
+com.zhang.zhangsafe.R$layout: int activity_blacknumber_list
+com.zhang.zhangsafe.R$layout: int activity_cache_clear
+com.zhang.zhangsafe.R$layout: int activity_contact_list
+com.zhang.zhangsafe.R$layout: int activity_enter_psd
+com.zhang.zhangsafe.R$layout: int activity_home
+com.zhang.zhangsafe.R$layout: int activity_process_manager
+com.zhang.zhangsafe.R$layout: int activity_process_setting
+com.zhang.zhangsafe.R$layout: int activity_query_address
+com.zhang.zhangsafe.R$layout: int activity_setting
+com.zhang.zhangsafe.R$layout: int activity_setup1
+com.zhang.zhangsafe.R$layout: int activity_setup2
+com.zhang.zhangsafe.R$layout: int activity_setup3
+com.zhang.zhangsafe.R$layout: int activity_setup4
+com.zhang.zhangsafe.R$layout: int activity_setup_over
+com.zhang.zhangsafe.R$layout: int activity_splash
+com.zhang.zhangsafe.R$layout: int activity_toast_location
+com.zhang.zhangsafe.R$layout: int ativity_atool
+com.zhang.zhangsafe.R$layout: int ativity_comm_numquery
+com.zhang.zhangsafe.R$layout: int dialog_blacknumber_add
+com.zhang.zhangsafe.R$layout: int dialog_blacknumber_modify
+com.zhang.zhangsafe.R$layout: int dialog_confirm_psd
+com.zhang.zhangsafe.R$layout: int dialog_set_psd
+com.zhang.zhangsafe.R$layout: int elv_child_item
+com.zhang.zhangsafe.R$layout: int home_gridview_item
+com.zhang.zhangsafe.R$layout: int linearlayout_cache_item
+com.zhang.zhangsafe.R$layout: int list_islock_item
+com.zhang.zhangsafe.R$layout: int list_item_app
+com.zhang.zhangsafe.R$layout: int list_item_app_title
+com.zhang.zhangsafe.R$layout: int list_item_process
+com.zhang.zhangsafe.R$layout: int listview_blacknumber_item
+com.zhang.zhangsafe.R$layout: int listview_contact_item
+com.zhang.zhangsafe.R$layout: int popupwindow_layout
+com.zhang.zhangsafe.R$layout: int process_widget
+com.zhang.zhangsafe.R$layout: int setting_click_view
+com.zhang.zhangsafe.R$layout: int setting_item_view
+com.zhang.zhangsafe.R$layout: int toast_view
+com.zhang.zhangsafe.R$menu: int main
+com.zhang.zhangsafe.R$raw: int ylzs
+com.zhang.zhangsafe.R$string: int action_settings
+com.zhang.zhangsafe.R$string: int add
+com.zhang.zhangsafe.R$string: int all
+com.zhang.zhangsafe.R$string: int anit_virus
+com.zhang.zhangsafe.R$string: int app_install_path
+com.zhang.zhangsafe.R$string: int app_manager
+com.zhang.zhangsafe.R$string: int app_name
+com.zhang.zhangsafe.R$string: int atool
+com.zhang.zhangsafe.R$string: int bartext
+com.zhang.zhangsafe.R$string: int black_app
+com.zhang.zhangsafe.R$string: int blacknumber_page
+com.zhang.zhangsafe.R$string: int cache_clear
+com.zhang.zhangsafe.R$string: int cancel
+com.zhang.zhangsafe.R$string: int clear_wipedata
+com.zhang.zhangsafe.R$string: int common_phone_search
+com.zhang.zhangsafe.R$string: int confirm
+com.zhang.zhangsafe.R$string: int confirm_psd
+com.zhang.zhangsafe.R$string: int data_destroy
+com.zhang.zhangsafe.R$string: int default_text
+com.zhang.zhangsafe.R$string: int drag
+com.zhang.zhangsafe.R$string: int function
+com.zhang.zhangsafe.R$string: int functionlist
+com.zhang.zhangsafe.R$string: int gps_location
+com.zhang.zhangsafe.R$string: int gps_trace
+com.zhang.zhangsafe.R$string: int hello_world
+com.zhang.zhangsafe.R$string: int imme_clear
+com.zhang.zhangsafe.R$string: int input_confirm_psd
+com.zhang.zhangsafe.R$string: int input_phone
+com.zhang.zhangsafe.R$string: int input_search_phone
+com.zhang.zhangsafe.R$string: int input_set_psd
+com.zhang.zhangsafe.R$string: int location_search
+com.zhang.zhangsafe.R$string: int lock
+com.zhang.zhangsafe.R$string: int lock_app
+com.zhang.zhangsafe.R$string: int lockscreen
+com.zhang.zhangsafe.R$string: int modify
+com.zhang.zhangsafe.R$string: int notsave_protected
+com.zhang.zhangsafe.R$string: int one_clear
+com.zhang.zhangsafe.R$string: int phone
+com.zhang.zhangsafe.R$string: int phone_guard
+com.zhang.zhangsafe.R$string: int phoneguard
+com.zhang.zhangsafe.R$string: int play_alarm
+com.zhang.zhangsafe.R$string: int process_manager
+com.zhang.zhangsafe.R$string: int process_setting
+com.zhang.zhangsafe.R$string: int progm_lock
+com.zhang.zhangsafe.R$string: int re_set
+com.zhang.zhangsafe.R$string: int refesh
+com.zhang.zhangsafe.R$string: int remote_lockscreen
+com.zhang.zhangsafe.R$string: int reverse
+com.zhang.zhangsafe.R$string: int safe_num
+com.zhang.zhangsafe.R$string: int safe_phone
+com.zhang.zhangsafe.R$string: int sample_device_admin
+com.zhang.zhangsafe.R$string: int sample_device_admin_description
+com.zhang.zhangsafe.R$string: int save_protected
+com.zhang.zhangsafe.R$string: int search
+com.zhang.zhangsafe.R$string: int select_all
+com.zhang.zhangsafe.R$string: int select_contact
+com.zhang.zhangsafe.R$string: int set_psd
+com.zhang.zhangsafe.R$string: int set_update
+com.zhang.zhangsafe.R$string: int set_update_off
+com.zhang.zhangsafe.R$string: int set_update_on
+com.zhang.zhangsafe.R$string: int setting
+com.zhang.zhangsafe.R$string: int share
+com.zhang.zhangsafe.R$string: int sim_bind
+com.zhang.zhangsafe.R$string: int sim_change
+com.zhang.zhangsafe.R$string: int sim_change_error
+com.zhang.zhangsafe.R$string: int sim_change_to_safephone
+com.zhang.zhangsafe.R$string: int sms
+com.zhang.zhangsafe.R$string: int sms_bak
+com.zhang.zhangsafe.R$string: int sms_recover
+com.zhang.zhangsafe.R$string: int start
+com.zhang.zhangsafe.R$string: int success
+com.zhang.zhangsafe.R$string: int uninstall
+com.zhang.zhangsafe.R$string: int unlock
+com.zhang.zhangsafe.R$string: int unlock_app
+com.zhang.zhangsafe.R$string: int versionName
+com.zhang.zhangsafe.R$string: int welcome
+com.zhang.zhangsafe.R$style: int AppBaseTheme
+com.zhang.zhangsafe.R$style: int AppTheme
+com.zhang.zhangsafe.R$style: int MatchStyle
+com.zhang.zhangsafe.R$style: int MatchWrapStyle
+com.zhang.zhangsafe.R$style: int NextBtnStyle
+com.zhang.zhangsafe.R$style: int PreBtnStyle
+com.zhang.zhangsafe.R$style: int TitleStyle
+com.zhang.zhangsafe.R$style: int WrapStyle
+com.zhang.zhangsafe.R$styleable: int[] com_zhang_zhangsafe_view_SettingItemView
+com.zhang.zhangsafe.R$styleable: int com_zhang_zhangsafe_view_SettingItemView_desoff
+com.zhang.zhangsafe.R$styleable: int com_zhang_zhangsafe_view_SettingItemView_deson
+com.zhang.zhangsafe.R$styleable: int com_zhang_zhangsafe_view_SettingItemView_destitle
+com.zhang.zhangsafe.R$xml: int device_admin_sample
+com.zhang.zhangsafe.R$xml: int process_widget_provider
+com.zhang.zhangsafe.activity.AToolActivity
+com.zhang.zhangsafe.activity.AToolActivity: AToolActivity()
+com.zhang.zhangsafe.activity.AnitVirusActivity
+com.zhang.zhangsafe.activity.AnitVirusActivity: AnitVirusActivity()
+com.zhang.zhangsafe.activity.AppLockActivity
+com.zhang.zhangsafe.activity.AppLockActivity: AppLockActivity()
+com.zhang.zhangsafe.activity.AppManagerActivity
+com.zhang.zhangsafe.activity.AppManagerActivity: AppManagerActivity()
+com.zhang.zhangsafe.activity.AppManagerActivity: void onClick(android.view.View)
+com.zhang.zhangsafe.activity.BaseSetupActivity: BaseSetupActivity()
+com.zhang.zhangsafe.activity.BaseSetupActivity: void nextPage(android.view.View)
+com.zhang.zhangsafe.activity.BaseSetupActivity: void prePage(android.view.View)
+com.zhang.zhangsafe.activity.BlackNumberActivity
+com.zhang.zhangsafe.activity.BlackNumberActivity: BlackNumberActivity()
+com.zhang.zhangsafe.activity.CacheClearActivity
+com.zhang.zhangsafe.activity.CacheClearActivity: CacheClearActivity()
+com.zhang.zhangsafe.activity.CommonNumberQueryActivity
+com.zhang.zhangsafe.activity.CommonNumberQueryActivity: CommonNumberQueryActivity()
+com.zhang.zhangsafe.activity.ContactListActivity
+com.zhang.zhangsafe.activity.ContactListActivity: ContactListActivity()
+com.zhang.zhangsafe.activity.EnterPsdActivity
+com.zhang.zhangsafe.activity.EnterPsdActivity: EnterPsdActivity()
+com.zhang.zhangsafe.activity.HomeActivity
+com.zhang.zhangsafe.activity.HomeActivity: HomeActivity()
+com.zhang.zhangsafe.activity.LockScreenActivity
+com.zhang.zhangsafe.activity.LockScreenActivity: LockScreenActivity()
+com.zhang.zhangsafe.activity.ProcessManagerActivity
+com.zhang.zhangsafe.activity.ProcessManagerActivity: ProcessManagerActivity()
+com.zhang.zhangsafe.activity.ProcessManagerActivity: void onClick(android.view.View)
+com.zhang.zhangsafe.activity.ProcessSettingActivity
+com.zhang.zhangsafe.activity.ProcessSettingActivity: ProcessSettingActivity()
+com.zhang.zhangsafe.activity.QueryLocationActivity
+com.zhang.zhangsafe.activity.QueryLocationActivity: QueryLocationActivity()
+com.zhang.zhangsafe.activity.SettingActivity
+com.zhang.zhangsafe.activity.SettingActivity: SettingActivity()
+com.zhang.zhangsafe.activity.Setup1Activity
+com.zhang.zhangsafe.activity.Setup1Activity: Setup1Activity()
+com.zhang.zhangsafe.activity.Setup2Activity
+com.zhang.zhangsafe.activity.Setup2Activity: Setup2Activity()
+com.zhang.zhangsafe.activity.Setup3Activity
+com.zhang.zhangsafe.activity.Setup3Activity: Setup3Activity()
+com.zhang.zhangsafe.activity.Setup4Activity
+com.zhang.zhangsafe.activity.Setup4Activity: Setup4Activity()
+com.zhang.zhangsafe.activity.SetupOverActivity
+com.zhang.zhangsafe.activity.SetupOverActivity: SetupOverActivity()
+com.zhang.zhangsafe.activity.SplashActivity
+com.zhang.zhangsafe.activity.SplashActivity: SplashActivity()
+com.zhang.zhangsafe.activity.ToastLocationActivity
+com.zhang.zhangsafe.activity.ToastLocationActivity: ToastLocationActivity()
+com.zhang.zhangsafe.receiver.BootReceiver
+com.zhang.zhangsafe.receiver.BootReceiver: BootReceiver()
+com.zhang.zhangsafe.receiver.DeviceReceiver
+com.zhang.zhangsafe.receiver.DeviceReceiver: DeviceReceiver()
+com.zhang.zhangsafe.receiver.KillProcessReceiver
+com.zhang.zhangsafe.receiver.KillProcessReceiver: KillProcessReceiver()
+com.zhang.zhangsafe.receiver.LockScreenReceiver
+com.zhang.zhangsafe.receiver.LockScreenReceiver: LockScreenReceiver()
+com.zhang.zhangsafe.receiver.MyAppWidgetProvider
+com.zhang.zhangsafe.receiver.MyAppWidgetProvider: MyAppWidgetProvider()
+com.zhang.zhangsafe.receiver.SmsReceiver
+com.zhang.zhangsafe.receiver.SmsReceiver: SmsReceiver()
+com.zhang.zhangsafe.service.AddressService
+com.zhang.zhangsafe.service.AddressService: AddressService()
+com.zhang.zhangsafe.service.AppLockService
+com.zhang.zhangsafe.service.AppLockService: AppLockService()
+com.zhang.zhangsafe.service.BlackNumberService
+com.zhang.zhangsafe.service.BlackNumberService: BlackNumberService()
+com.zhang.zhangsafe.service.LocationService
+com.zhang.zhangsafe.service.LocationService: LocationService()
+com.zhang.zhangsafe.service.LockScreenService
+com.zhang.zhangsafe.service.LockScreenService: LockScreenService()
+com.zhang.zhangsafe.service.UpdateWidgetService
+com.zhang.zhangsafe.service.UpdateWidgetService: UpdateWidgetService()
+com.zhang.zhangsafe.view.FocusTextView
+com.zhang.zhangsafe.view.FocusTextView: FocusTextView(android.content.Context)
+com.zhang.zhangsafe.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet)
+com.zhang.zhangsafe.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet,int)
+com.zhang.zhangsafe.view.SettingClickView
+com.zhang.zhangsafe.view.SettingClickView: SettingClickView(android.content.Context)
+com.zhang.zhangsafe.view.SettingClickView: SettingClickView(android.content.Context,android.util.AttributeSet)
+com.zhang.zhangsafe.view.SettingClickView: SettingClickView(android.content.Context,android.util.AttributeSet,int)
+com.zhang.zhangsafe.view.SettingClickView: void setTitle(java.lang.String)
+com.zhang.zhangsafe.view.SettingClickView: void setDes(java.lang.String)
+com.zhang.zhangsafe.view.SettingItemView
+com.zhang.zhangsafe.view.SettingItemView: SettingItemView(android.content.Context)
+com.zhang.zhangsafe.view.SettingItemView: SettingItemView(android.content.Context,android.util.AttributeSet)
+com.zhang.zhangsafe.view.SettingItemView: SettingItemView(android.content.Context,android.util.AttributeSet,int)
+com.zhang.zhangsafe.view.SettingItemView: void setCheck(boolean)

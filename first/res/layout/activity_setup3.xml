@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/safe_phone" />
+
+    <TextView
+        style="@style/MatchWrapStyle"
+        android:text="@string/sim_change_to_safephone" />
+<EditText 
+    android:id="@+id/et_setup3_phone"
+    style="@style/MatchWrapStyle"
+    android:hint="@string/input_phone"
+    android:inputType="phone"
+    />
+<Button 
+    android:id="@+id/bt_setup3_select"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_contact"
+    android:background="@drawable/selector_setup3_btn_bg"
+    android:textSize="22sp"
+    />
+    <LinearLayout
+        style="@style/MatchWrapStyle"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_online" />
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:background="@android:drawable/presence_invisible" />
+    </LinearLayout>
+
+    <RelativeLayout style="@style/MatchStyle" >
+
+        <ImageView
+            style="@style/WrapStyle"
+            android:layout_centerInParent="true"
+            android:background="@drawable/phone" />
+
+        <Button style="@style/PreBtnStyle" />
+
+        <Button style="@style/NextBtnStyle" />
+    </RelativeLayout>
+
+</LinearLayout>

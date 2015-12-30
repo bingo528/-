@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+       style="@style/MatchWrapStyle"
+        >
+        
+        <TextView 
+            style="@style/TitleStyle"
+        android:text="@string/blacknumber_page"
+        android:gravity="left"
+        />
+        <Button 
+            style="@style/WrapStyle"
+            android:id="@+id/bt_blacknum_refesh"
+            android:text="@string/refesh"
+            android:layout_centerInParent="true"
+            />
+        
+        <Button 
+            android:id="@+id/bt_blacknumber_add"
+            style="@style/WrapStyle"
+            android:layout_alignParentRight="true"
+            android:text="@string/add"
+            android:layout_centerVertical="true"
+            />
+        
+    </RelativeLayout>
+    
+    <ListView 
+        style="@style/WrapStyle"
+        android:id="@+id/lv_blacknumber"
+        ></ListView>
+
+</LinearLayout>

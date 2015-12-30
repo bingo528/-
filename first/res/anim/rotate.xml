@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--按照自身中心点360度循环旋转  -->
+<rotate
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:duration="1000"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:repeatCount="infinite"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</rotate>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/TitleStyle"
+        android:text="@string/phone_guard"
+        />
+<RelativeLayout 
+    style="@style/WrapStyle"
+    android:padding="5dp"
+    >
+    <TextView 
+        style="@style/WrapStyle"
+        android:text="@string/safe_num"
+        />
+    <TextView 
+        style="@style/WrapStyle"
+        android:id="@+id/tv_setup_over_safenumber"
+        android:text="@string/default_text"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView 
+        style="@style/MatchWrapStyle"
+        android:background="@drawable/listview_divider"
+        android:layout_below="@id/tv_setup_over_safenumber"
+        />
+    
+</RelativeLayout>
+<RelativeLayout 
+    style="@style/WrapStyle"
+    android:padding="5dp"
+    >
+    <TextView 
+        style="@style/WrapStyle"
+        android:text="@string/save_protected"
+        />
+    <ImageView 
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+        android:id="@+id/iv_setupover_lock"
+        android:background="@drawable/lock"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView 
+        style="@style/MatchWrapStyle"
+        android:background="@drawable/listview_divider"
+        android:layout_below="@id/iv_setupover_lock"
+        
+        />
+    
+</RelativeLayout>
+<TextView 
+    android:padding="3dp"
+    style="@style/MatchWrapStyle"
+    android:text="@string/re_set"
+    android:background="@drawable/selector_setupover_reset"
+    android:id="@+id/tv_setupover_reset"
+    />
+<TextView 
+    style="@style/MatchWrapStyle"
+    android:text="@string/function"
+    android:background="#ccc"
+    android:textSize="18sp"
+    />
+ <TextView
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        android:text="@string/gps_location" />
+
+    <TextView
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        android:text="@string/play_alarm" />
+
+    <TextView
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        android:text="@string/clear_wipedata" />
+
+    <TextView
+        style="@style/MatchWrapStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        android:text="@string/lockscreen" />
+
+</LinearLayout>
